@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.baladiti">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Formation_mobile_login">
+        <activity
+            android:name="com.baladiti.baladiti.SondageExist"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="com.baladiti.baladiti.RendezVous"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.BilletElectrique"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.PrincipalActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.GuideActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.SondageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.DemandeActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.DemandeActivity1"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.AvisQuestionsActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.AvisQuestionsActivity1"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.PostDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.Problem3endClass"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.Problem2endClass"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.ProblemActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.baladiti.baladiti.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.baladiti.baladiti.profil" />
+        <activity android:name="com.baladiti.baladiti.forget_password" />
+        <activity android:name="com.baladiti.baladiti.MiseAjourActivity" />
+        <activity android:name="com.baladiti.baladiti.registre" />
+        <activity android:name="com.baladiti.baladiti.HomeActivity" />
+        <activity android:name="com.baladiti.baladiti.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182153197782",
+    "project_id": "baladiti-d0499",
+    "storage_bucket": "baladiti-d0499.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182153197782:android:77fdcb3a13d4c30a63f177",
+        "android_client_info": {
+          "package_name": "com.baladiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182153197782-gkbngj75gtfp1qgvteioagmpi4ejevgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpl04yYpQ5dAqOEnJcKXfhToyFQ11Qkg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182153197782-gkbngj75gtfp1qgvteioagmpi4ejevgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
